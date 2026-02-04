@@ -1,5 +1,5 @@
 def evaluate_credit_score(score):
-    # Check for invalid range first
+    # Evaluate the credit score and return the appropriate message.
     if score < 300 or score > 850:
         return "Invalid score."
     if score >= 750:
