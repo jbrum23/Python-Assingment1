@@ -1,6 +1,6 @@
-# Concepts: conditionals, functions returning values, ternary expressions
-
+# Function to determine tax bracket and rate
 def get_tax_bracket(income):
+    # Handle invalid income
     if income < 0:
         return "Invalid income.", 0.0
 
