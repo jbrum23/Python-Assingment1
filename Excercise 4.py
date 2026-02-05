@@ -1,4 +1,6 @@
-# Function to determine tax bracket and rate
+# Exercise 4: Tax Bracket Determiner
+# Concepts: conditionals, functions returning values, ternary expressions
+
 def get_tax_bracket(income):
     # Handle invalid income
     if income < 0:
