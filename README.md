@@ -37,3 +37,14 @@ estimated tax amount based on the assigned bracket.
 ## Sample Run
 What's your annual income? 75000
 Your bracket: Medium (20%) (Deduction Eligible). Estimated tax: 15000.0
+
+# Exercise 5: Product Category Matcher
+## Description
+This program prompts the user for a product name and categorizes it using a
+match-case statement to determine the pricing margin strategy.
+## Assumptions
+- Product names are entered as text.
+- Input may contain uppercase letters or extra spaces and is normalized before
+  comparison.
+- Products not matching known categories require manual review.
+
